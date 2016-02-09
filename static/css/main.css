@@ -1,16 +1,47 @@
+@font-face {
+  font-family: 'Letreiro';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Letreiro'), url('../../static/fonts/Letreiro.otf') format('truetype');
+}
+
 body {
 	background-color: #000000;
-	position: relative;
-	z-index: -1;
 }
 .section {
 }
-.section1 .slide1 {
-	background: url('../../static/img/slide1.jpg') 0 0 no-repeat;
+.slide {
+	position: relative;
 }
-.section .slide2 {
-	background: url('../../static/img/slide2.jpg') 0 0 no-repeat;
+.slide .logo {
 }
-.section .slide3 {
-	background: url('../../static/img/slide3.jpg') 0 0 no-repeat;
+.slide .slide_img {
+	height: auto;
+	width: 1920px;
+}
+.slide .footer {
+	height: 103px;
+}
+.slide .block {
+	width: 450px;
+	position: absolute;
+	bottom: 30%;
+	right: 10%
+}
+.slide .block h1 {
+	font-family: 'Letreiro', sanserif;
+	font-weight: bold;
+	font-size: 120px;
+	color: #fff;
+}
+.slide .block hr {
+	color: #fff;
+}
+.slide .block h2 {
+	font-family: 'Letreiro', sanserif;
+	font-size: 36px;
+	color: #fff;
+}
+.slide .block p {
+	font-size: 13px;
 }
