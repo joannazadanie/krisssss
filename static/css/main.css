@@ -14,6 +14,14 @@ body {
 	position: relative;
 }
 .slide .logo {
+	background: url('../../static/img/logo.png') no-repeat;
+	height: 53px;
+	width: 79px;
+	position: absolute;
+	top: 150px;
+	left: 100px;
+
+	z-index: 999;
 }
 .slide .slide_img {
 	height: auto;
@@ -21,6 +29,11 @@ body {
 }
 .slide .footer {
 	height: 103px;
+}
+.slide .footer .tetris {
+	background: url('../../static/img/tetris_logo.png')50px 50px no-repeat;
+	height: 100%;
+	width: 100%;
 }
 .slide .block {
 	width: 450px;
