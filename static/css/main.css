@@ -1,0 +1,16 @@
+body {
+	background-color: #000000;
+	position: relative;
+	z-index: -1;
+}
+.section {
+}
+.section1 .slide1 {
+	background: url('../../static/img/slide1.jpg') 0 0 no-repeat;
+}
+.section .slide2 {
+	background: url('../../static/img/slide2.jpg') 0 0 no-repeat;
+}
+.section .slide3 {
+	background: url('../../static/img/slide3.jpg') 0 0 no-repeat;
+}
